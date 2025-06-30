@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-  <div class="min-h-screen px-6 lg:px-10 pt-24 md:pt-44 pb-20">
+  <div class="min-h-screen px-6 lg:px-10 pt-28 md:pt-44 pb-20">
     <div class="max-w-[1200px] mx-auto">
 
       <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-10">
