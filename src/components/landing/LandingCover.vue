@@ -40,6 +40,7 @@ onMounted(() => {
           <p>&#x2713; Pedijatrija</p>
           <p>&#x2713; Interna medicina</p>
           <p>&#x2713; Dermatologija</p>
+          <p>&#x2713; Psihijatrija</p>
         </div>
       </div>
       <div class="hidden md:flex flex-col mt-2 space-y-3 bg-gray-300/30 py-2 px-4 w-80 lg:w-92 rounded-lg">
@@ -69,6 +70,7 @@ onMounted(() => {
         <p>&#x2713; Pedijatrija</p>
         <p>&#x2713; Interna medicina</p>
         <p>&#x2713; Dermatologija</p>
+        <p>&#x2713; Psihijatrija</p>
       </div>
     </div>
     <div class="flex flex-col md:hidden items-center md:items-start space-y-2 text-gray-800 mt-4">

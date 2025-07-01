@@ -27,7 +27,7 @@ const services = [
       { name: "Ginekološki pregled, ultrazvuk, PAPA test", price: 100 },
       { name: "Ginekološki pregled, ultrazvuk, PAPA test, kolposkopija", price: 150 },
       { name: "Ginekološki pregled, ultrazvuk, PAPA test, kolposkopija, brisevi", price: 160 },
-      { name: "Biopsija grlića sa PH nalazom", price: 100 },
+      { name: "Biopsija grlića sa PH nalazom", price: 150 },
       { name: "Polipektomija sa PH nalazom", price: 80 },
       { name: "Skidanje kondiloma (radiotalas)", price: 100 },
       { name: "Ekscizija sa PH nalazom", price: 100 },

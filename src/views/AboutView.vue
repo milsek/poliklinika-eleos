@@ -13,7 +13,7 @@ useHead({
       <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-10">
         <div class="order-2 md:order-1 text-lg md:text-base lg:text-lg text-gray-800 mt-8 md:mt-0">
           <p><span class="font-semibold text-accent">Poliklinika Eleos</span> osnovana je s idejom da zdravlje pacijenta bude u centru pažnje - ne samo kroz dijagnozu i liječenje, već i kroz razumijevanje, podršku i povjerenje.</p><br>
-          <p>Osnivačica Poliklinike, dr Jelena Živanović, ginekolog i akušer s preko 20 godina iskustva, svoj radni vijek posvetila je zdravlju žena, donoseći na svijet hiljade beba i prateći žene kroz sve važne životne faze. Generacije pacijentkinja u Brčkom poznaju je upravo kao „svoju doktoricu“ - onu koja uliva sigurnost, razumije potrebe i uvijek ima vremena da sasluša.</p><br>
+          <p>Osnivač Poliklinike, dr Jelena Živanović, ginekolog i akušer s preko 20 godina iskustva, svoj radni vijek posvetila je zdravlju žena, donoseći na svijet hiljade beba i prateći žene kroz sve važne životne faze. Generacije pacijentkinja u Brčkom poznaju je upravo kao „svoju doktoricu“ - onu koja uliva sigurnost, razumije potrebe i uvijek ima vremena da sasluša.</p><br>
           <p>Dr Živanović je diplomirala na Medicinskom fakultetu u Nišu, s prosječnom ocjenom 9,5, a specijalizaciju iz ginekologije i akušerstva završila je na Univerzitetu u Tuzli. Njena stručnost, predanost i ljudski pristup temelj su na kojima počiva Poliklinika Eleos.</p><br>
           <p>Danas, Eleos okuplja tim ljekara različitih specijalnosti s jednim zajedničkim ciljem - da svakom pacijentu pružimo najbolju moguću njegu, uz osjećaj sigurnosti i poštovanja.</p><br>
 
