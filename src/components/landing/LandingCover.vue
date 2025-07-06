@@ -60,7 +60,7 @@ onMounted(() => {
       </div>
     </div>
 
-    <img src="/images/lobby1.jpg" alt="Poliklinika Eleos Lobby" class=" rounded-2xl md:rounded-3xl w-full md:h-[76vh] object-cover">
+    <img src="/images/lobby2.jpg" alt="Poliklinika Eleos Lobby" class=" rounded-2xl md:rounded-3xl w-full md:h-[76vh] object-cover">
     
     <div class="flex flex-col md:hidden mt-2">
       <p class="text-4xl font-bold text-[#b9c1cf]">Sve <span class="text-gray-700">najvažnije</span><br>na jednom <span class="text-accent">mjestu</span></p>

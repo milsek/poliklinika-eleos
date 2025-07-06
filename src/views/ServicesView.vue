@@ -19,6 +19,9 @@ useHead({
       <div class="flex flex-col md:flex-row md:space-x-12">
         <!-- Left Column -->
         <div class="flex flex-col flex-1 space-y-12">
+          <!-- Section image -->
+          <img src="/images/lobby5.jpg" alt="Office image 2" class="w-full object-cover object-top rounded-2xl md:rounded-3xl h-[500px] md:h-[720px]">
+
           <!-- Section 2 -->
           <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-accent mb-4">Ginekologija i akušerstvo</h2>
@@ -26,6 +29,9 @@ useHead({
               Preventivni ginekološki pregledi, ultrazvuk, PAPA test, kolposkopija, brisevi, dijagnostika i liječenje ginekoloških stanja, vođenje trudnoće, savjetovanje za trudnice i priprema za porod. Preglede obavlja dr Jelena Živanović, ginekolog-akušer s preko 20 godina iskustva u radu sa ženama svih generacija.
             </p>
           </div>
+        </div>
+        <!-- Right Column -->
+        <div class="flex flex-col flex-1 space-y-12 mt-12 md:mt-0">
           <!-- Section 3 -->
           <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-accent mb-4">Interna medicina</h2>
@@ -46,9 +52,6 @@ useHead({
               Specijalistički pregledi kože, vlasišta i noktiju. Dijagnostika i liječenje akni, dermatitisa, gljivičnih infekcija, alergija, promjena na koži i mladeža, kao i dermoskopski pregledi i savjetovanje u vezi sa zdravljem kože.
             </p>
           </div>
-        </div>
-        <!-- Right Column -->
-        <div class="flex flex-col flex-1 space-y-12 mt-12 md:mt-0">
           <!-- Section 5 -->
           <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-accent mb-4">Psihijatrija</h2>
