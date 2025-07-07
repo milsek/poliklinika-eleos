@@ -52,6 +52,8 @@ const services = [
       { name: "Pregled interniste", price: 80 },
       { name: "Pregled interniste sa ultrazvukom", price: 100 },
       { name: "Pregled dermatologa sa dermoskopom", price: 80 },
+      { name: "Pregled subspecijaliste, dr sci, prof dr", price: 80 },
+      { name: "Ultrazvuk dojke", price: 50 },
     ]
   },
   {

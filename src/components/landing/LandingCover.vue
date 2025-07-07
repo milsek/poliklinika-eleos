@@ -34,12 +34,11 @@ onMounted(() => {
       </div>
       <div class="hidden md:flex md:flex-col mt-2">
         <p class="text-4xl font-bold text-[#b9c1cf]">Sve <span class="text-gray-700">najvažnije</span><br>na jednom <span class="text-accent">mjestu</span></p>
-        <div class="grid grid-cols-2 lg:grid-cols-3 lg:w-5/6 text-xs text-gray-600 space-y-1 mt-4">
-          <p>&#x2713; Ginekologija</p>
-          <p>&#x2713; Trudnoća</p>
+        <div class="flex flex-wrap lg:w-5/6 text-xs text-gray-600 space-y-1 space-x-6 mt-4">
+          <p>&#x2713; Ginekologija i trudnoća</p>
           <p>&#x2713; Pedijatrija</p>
-          <p>&#x2713; Interna medicina</p>
           <p>&#x2713; Dermatologija</p>
+          <p>&#x2713; Interna medicina</p>
           <p>&#x2713; Psihijatrija</p>
         </div>
       </div>
@@ -63,13 +62,12 @@ onMounted(() => {
     <img src="/images/lobby2.jpg" alt="Poliklinika Eleos Lobby" class=" rounded-2xl md:rounded-3xl w-full md:h-[76vh] object-cover">
     
     <div class="flex flex-col md:hidden mt-2">
-      <p class="text-4xl font-bold text-[#b9c1cf]">Sve <span class="text-gray-700">najvažnije</span><br>na jednom <span class="text-accent">mjestu</span></p>
-      <div class="grid grid-cols-3 text-xs text-gray-600 space-y-1 mt-2">
-        <p>&#x2713; Ginekologija</p>
-        <p>&#x2713; Trudnoća</p>
+      <p class="text-4xl font-bold text-[#b9c1cf] text-center">Sve <span class="text-gray-700">najvažnije</span><br>na jednom <span class="text-accent">mjestu</span></p>
+      <div class="flex flex-wrap justify-center text-xs text-gray-600 space-y-1 space-x-6 mt-4">
+        <p>&#x2713; Ginekologija i trudnoća</p>
         <p>&#x2713; Pedijatrija</p>
-        <p>&#x2713; Interna medicina</p>
         <p>&#x2713; Dermatologija</p>
+        <p>&#x2713; Interna medicina</p>
         <p>&#x2713; Psihijatrija</p>
       </div>
     </div>

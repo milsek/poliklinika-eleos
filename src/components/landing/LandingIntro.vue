@@ -7,7 +7,7 @@
         </div>
         <div class="flex flex-col mt-16 lg:mt-0 justify-center px-4 lg:px-0 text-center md:text-right">
           <p class="text-xl md:text-2xl font-semibold">Zašto izabrati baš nas?</p>
-          <p class="mt-4 md:mt-2 lg:w-3/4 lg:ml-auto">U moru zdravstvenih ustanova, Poliklinika Eleos se izdvaja po iskrenoj posvećenosti svakom pacijentu. Naši ljekari su vrhunski stručnjaci s bogatim iskustvom, ali prije svega - ljudi koji slušaju, razumiju i pristupaju s empatijom.
+          <p class="mt-4 md:mt-2 lg:w-3/4 lg:ml-auto">U moru zdravstvenih ustanova, Poliklinika Eleos se izdvaja po iskrenoj posvećenosti svakom pacijentu. Naši ljekari su vrhunski stručnjaci sa bogatim iskustvom, ali prije svega - ljudi koji slušaju, razumiju i pristupaju sa empatijom.
 </p>
         </div>
       </div>
