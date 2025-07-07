@@ -22,7 +22,7 @@ useHead({
 
           <i class="text-sm">Dobro došli u Polikliniku Eleos - mjesto gdje se medicina živi sa ljubavlju.</i>
         </div>
-        <div class="hidden md:block flex-shrink-0">
+        <div class="hidden md:block order-1 md:order-2 flex-shrink-0">
           <img src="/images/dr-jelena.jpg" alt="Dr Jelena Živanović" class="mx-0 rounded-2xl object-cover w-full h-auto sm:w-96" />
         </div>
       </div>
