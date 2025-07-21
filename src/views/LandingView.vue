@@ -6,7 +6,7 @@ import LandingOffice from '@/components/landing/LandingOffice.vue';
 import LandingPatientCare from '@/components/landing/LandingPatientCare.vue';
 
 useHead({
-  title: 'Poliklinika Eleos Brčko',
+  title: 'Poliklinika Eleos Brčko - Sve najvažnije na jednom mjestu',
   link: [
     {
       rel: 'canonical',
