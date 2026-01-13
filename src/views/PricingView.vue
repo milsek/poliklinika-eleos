@@ -11,8 +11,8 @@ const services = [
     categoryName: "Ginekološke usluge",
     examinations: [
       { name: "Ginekološki pregled", price: 30 },
-      { name: "Ultrazvučni pregled (prvi)", price: 40 },
-      { name: "Ultrazvučni pregled kontrola", price: 30 },
+      { name: "Ultrazvučni pregled (prvi)", price: 50 },
+      { name: "Ultrazvučni pregled kontrola", price: 40 },
       { name: "PAPA test", price: 30 },
       { name: "Kolposkopija", price: 50 },
       { name: "Toalet pesara", price: 30 },
@@ -63,6 +63,7 @@ const services = [
       { name: "I.M. terapija", price: 20 },
       { name: "I.V. infuzija", price: 40 },
       { name: "Obrada rane", price: 10 },
+      { name: "Intervencija radiotalasom", price: 100 },
     ]
   },
 ];
@@ -79,7 +80,7 @@ const services = [
         </div>
       </div>
 
-      <p class="mt-2 text-sm text-gray-600">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 16. juna 2025.</p>
+      <p class="mt-2 text-sm text-gray-600">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 13. januara 2026.</p>
     </div>
   </div>
 </template>
