@@ -9,7 +9,7 @@
       </div>
 
       <div class="flex flex-col ml-auto p-6 lg:p-10 text-center md:text-left order-3 md:order-4">
-        <p>U okviru naše poliklinike dostupne su različite specijalnosti - od ginekologije, interne medicine i dermatologije, do psihijatrije i pedijatrije. Time omogućavamo sveobuhvatnu zdravstvenu zaštitu na jednom mjestu, uz međusobno usklađene tretmane i savjete.</p>
+        <p>U okviru naše poliklinike dostupne su različite specijalnosti - ginekologija i trudnoća, estetska medicina i dermatologija, interna medicina, pedijatrija i psihijatrija. Time omogućavamo sveobuhvatnu zdravstvenu zaštitu na jednom mjestu, uz međusobno usklađene tretmane i savjete.</p>
       </div>
       <div class="flex order-4 md:order-3 md:col-span-2">
         <img src="/images/lobby4.jpg" alt="Office image 2" class="w-full object-cover object-top rounded-2xl md:rounded-3xl h-[500px] md:h-[720px]">

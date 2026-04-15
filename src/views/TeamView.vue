@@ -11,6 +11,10 @@ const team = [
     specialty: "specijalista ginekologije i akušerstva",
   },
   {
+    name: "Dr Tamara Stojanović",
+    specialty: "specijalista anesteziologije i ljekar estetske medicine",
+  },
+  {
     name: "Prof. dr Nermina Hadžigrahić",
     specialty: "specijalista dermatovenerologije",
   },

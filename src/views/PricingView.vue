@@ -36,6 +36,18 @@ const services = [
     ]
   },
   {
+    categoryName: "Estetska medicina",
+    examinations: [
+      { name: "Botoks 3 regije", price: 370 },
+      { name: "Botoks 2 regije", price: 290 },
+      { name: "Botoks 1 regija", price: 180 },
+      { name: "Hijaluronski filer 1ml", price: 350 },
+      { name: "Skinbooster", price: 330 },
+      { name: "Hemijski piling", price: 130 },
+      { name: "Botoks protiv znojenja", price: 490 },
+    ]
+  },
+  {
     categoryName: "Pedijatrijske usluge",
     examinations: [
       { name: "Pregled subspecijaliste pedijatra", price: 80 },
