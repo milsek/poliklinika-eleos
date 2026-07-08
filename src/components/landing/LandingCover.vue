@@ -24,7 +24,8 @@ onMounted(() => {
       <p class="lg:w-4/5">Savremena privatna zdravstvena ustanova koja objedinjuje stručnost, posvećenost i najviše standarde medicinske zaštite.</p>
       <div class="hidden md:flex flex-col items-center md:items-start md:space-y-2 text-gray-800 my-8">
         <ContactCard label="Branislava Nušića 9, Brčko" icon="/icons/location.png" icon-alt="Location Icon" />
-        <ContactCard label="+387 65 906-938" icon="/icons/phone.png" icon-alt="Location Icon" />
+        <ContactCard label="+387 66 012 021" icon="/icons/phone.png" icon-alt="Phone Icon" />
+        <ContactCard label="+387 65 906 938" icon="/icons/phone2.png" icon-alt="Phone Icon" />
         <div class="flex space-x-4 items-center rounded-full h-13 w-80 bg-light border-2 border-accent px-1">
           <div class="flex flex-col justify-center bg-white rounded-full h-10 w-10 border-2 border-accent select-none">
             <img src="/icons/mail.png" alt="E-mail Icon" class="h-4.5 w-4.5 mx-auto" />
@@ -43,18 +44,17 @@ onMounted(() => {
         </div>
       </div>
       <div class="hidden md:flex flex-col mt-2 space-y-3 bg-gray-300/30 py-2 px-4 w-80 lg:w-92 rounded-lg">
-        <div class="flex justify-between text-sm space-x-4 text-gray-700 ">
-          <p class="w-full grow h-min">Ponedjeljak - Subota</p>
-          <p class="font-medium grow-0 w-36 text-right">
-            9:00 - 13:00<br>
-            15:00 - 19:00 
-          </p>
+        <div class="flex justify-between text-sm space-x-4 text-gray-700">
+          <p class="w-full grow h-min">Ponedjeljak - Petak</p>
+          <p class="font-medium grow-0 w-36 text-right">8:00 - 20:00</p>
         </div>
-        <div class="flex justify-between rounded-2xl text-sm space-x-4 text-gray-700 ">
+        <div class="flex justify-between text-sm space-x-4 text-gray-700">
+          <p class="w-full grow h-min">Subota</p>
+          <p class="font-medium grow-0 w-36 text-right">9:00 - 15:00</p>
+        </div>
+        <div class="flex justify-between text-sm space-x-4 text-gray-700">
           <p class="w-full grow h-min">Nedjelja</p>
-          <p class="font-medium grow-0 w-36 text-right">
-            Neradna
-          </p>
+          <p class="font-medium grow-0 w-36 text-right">Neradna</p>
         </div>
       </div>
     </div>
@@ -73,7 +73,8 @@ onMounted(() => {
     </div>
     <div class="flex flex-col md:hidden items-center md:items-start space-y-2 text-gray-800 mt-4">
       <ContactCard label="Branislava Nušića 9, Brčko" icon="/icons/location.png" icon-alt="Location Icon" />
-      <ContactCard label="+387 65 906-938" icon="/icons/phone.png" icon-alt="Location Icon" />
+      <ContactCard label="+387 66 012 021" icon="/icons/phone.png" icon-alt="Phone Icon" />
+      <ContactCard label="+387 65 906 938" icon="/icons/phone2.png" icon-alt="Phone Icon" />
       <div class="flex space-x-4 items-center rounded-full h-13 w-80 bg-light border-2 border-accent px-1">
         <div class="flex flex-col justify-center bg-white rounded-full h-10 w-10 border-2 border-accent select-none">
           <img src="/icons/mail.png" alt="E-mail Icon" class="h-4.5 w-4.5 mx-auto" />
@@ -81,17 +82,18 @@ onMounted(() => {
         <p><span ref="email2" class="hover:text-black"></span></p>
       </div>
     </div>
-    <div class="flex justify-center md:hidden divide-x divide-gray-200 mt-2">
-      <div class="pr-10 md:pr-12">
-        <p class="text-xs text-gray-500 mb-1">Pon - Sub</p>
-        <p class="text-sm">
-          9:00 - 13:00<br>
-          15:00 - 19:00 
-        </p>
+    <div class="flex flex-col md:hidden space-y-2 mt-2 bg-gray-300/30 py-3 px-4 rounded-lg w-80 mx-auto">
+      <div class="flex justify-between text-sm text-gray-700">
+        <p class="text-xs text-gray-500">Ponedjeljak - Petak</p>
+        <p class="font-medium">8:00 - 20:00</p>
       </div>
-      <div class="pl-10 md:pl-12 mb-1">
+      <div class="flex justify-between text-sm text-gray-700">
+        <p class="text-xs text-gray-500">Subota</p>
+        <p class="font-medium">9:00 - 15:00</p>
+      </div>
+      <div class="flex justify-between text-sm text-gray-700">
         <p class="text-xs text-gray-500">Nedjelja</p>
-        <p class="text-sm h-full">Neradna</p>
+        <p class="font-medium">Neradna</p>
       </div>
     </div>
   </div>

@@ -95,8 +95,9 @@ useHead({
 
               <div>
                 <h3 class="font-medium text-gray-900 text-lg">Kontakt</h3>
-                <p>Telefon: +387 65 906-938</p>
-                <div>Email: <span ref="email"></span></div>
+                <p>+387 66 012 021</p>
+                <p>+387 65 906 938</p>
+                <span ref="email"></span>
               </div>
               
               <div class="flex space-x-2">
@@ -116,8 +117,12 @@ useHead({
                 <h3 class="font-medium text-gray-900 text-lg pb-1">Radno vrijeme</h3>
                 <div class="flex flex-col space-y-1">
                   <div>
-                    <p class="text-sm">(Pon - Sub)</p>
-                    <p class="text-lg"> 9:00 - 13:00 <br> 15:00 - 19:00</p>
+                    <p class="text-sm">Ponedjeljak - Petak</p>
+                    <p class="text-lg">8:00 - 20:00</p>
+                  </div>
+                  <div>
+                    <p class="text-sm">Subota</p>
+                    <p class="text-lg">9:00 - 15:00</p>
                   </div>
                   <p class="text-lg">Nedjelja neradna</p>
                 </div>

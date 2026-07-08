@@ -45,7 +45,10 @@ onMounted(() => {
               <span>Branislava Nušića 9, Brčko</span>
             </div>
             <div class="text-center md:text-left">
-              <span>+387 65 906-938</span>
+              <span>+387 66 012 021</span>
+            </div>
+            <div class="text-center md:text-left">
+              <span>+387 65 906 938</span>
             </div>
             <div class="text-center md:text-left hover:text-gray-600">
               <span ref="email"></span>

@@ -16,7 +16,7 @@ defineProps({
             class="flex flex-col md:flex-row justify-between py-2 border-b border-dashed last:border-0">
         <span class="text-gray-800">{{ exam.name }}</span>
         <span class="text-accent font-bold shrink-0 mt-auto">
-          {{ `${exam.price} KM` }}
+          {{ `${exam.price} ${exam.price !== 'NA UPIT' ? 'KM' : ''}` }}
         </span>
       </div>
     </div>

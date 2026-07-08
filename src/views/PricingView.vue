@@ -38,13 +38,19 @@ const services = [
   {
     categoryName: "Estetska medicina",
     examinations: [
-      { name: "Botoks 3 regije", price: 370 },
-      { name: "Botoks 2 regije", price: 290 },
-      { name: "Botoks 1 regija", price: 180 },
-      { name: "Hijaluronski filer 1ml", price: 350 },
-      { name: "Skinbooster", price: 330 },
-      { name: "Hemijski piling", price: 130 },
-      { name: "Botoks protiv znojenja", price: 490 },
+      { name: "Botoks 3 regije", price: 390 },
+      { name: "Botoks 2 regije", price: 310 },
+      { name: "Botoks pazuha", price: 490 },
+      { name: "Hijaluronski filer 1 ml", price: 390 },
+      { name: "Hijaluronski filer 0.5 ml", price: 220 },
+      { name: "Skinbooster Kiara", price: 330 },
+      { name: "BioRePeel", price: 140 },
+      { name: "Biorevitalizacija usana", price: 120 },
+      { name: "Lipoliza stomaka", price: 290 },
+      { name: "Lipoliza podbratka", price: 140 },
+      { name: "Botox vrata", price: 370 },
+      { name: "Full face botox", price: 470 },
+      { name: "Sklerozacija kapilara", price: "NA UPIT" },
     ]
   },
   {
@@ -92,7 +98,7 @@ const services = [
         </div>
       </div>
 
-      <p class="mt-2 text-sm text-gray-600">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 13. januara 2026.</p>
+      <p class="mt-2 text-sm text-gray-600">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 8. jula 2026.</p>
     </div>
   </div>
 </template>
