@@ -38,9 +38,9 @@ const services = [
   {
     categoryName: "Estetska medicina",
     examinations: [
-      { name: "Botoks 3 regije", price: 390 },
-      { name: "Botoks 2 regije", price: 310 },
-      { name: "Botoks pazuha", price: 490 },
+      { name: "Botox 3 regije", price: 390 },
+      { name: "Botox 2 regije", price: 310 },
+      { name: "Botox pazuha", price: 490 },
       { name: "Hijaluronski filer 1 ml", price: 390 },
       { name: "Hijaluronski filer 0.5 ml", price: 220 },
       { name: "Skinbooster Kiara", price: 330 },
