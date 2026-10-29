@@ -5,6 +5,16 @@
   --font-display: "Montserrat", "sans-serif";
   --color-light: #fcd986;
   --color-accent: #d4b072;
+  --color-accent-dark: #a8823f;
+  --color-cream: #fbf8f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-800 antialiased font-display;
 }
 
 /* ----------- custom css ----------- */
@@ -22,13 +32,13 @@
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(252, 217, 134);
-  border: rgb(212, 176, 114) solid 1px;
+  background: rgb(212, 176, 114);
+  border-radius: 9999px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(242, 207, 124);
+  background: rgb(168, 130, 63);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -46,10 +56,10 @@
 /* selection */
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: rgb(0, 0, 0);
+  background: rgb(168, 130, 63);
 }
 
 ::selection {
   color: white;
-  background: rgb(0, 0, 0);
+  background: rgb(168, 130, 63);
 }

@@ -12,8 +12,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <a :href="to" class="text-xs font-display text-center md:text-left font-medium text-gray-400
-  hover:text-gray-600 transition ease-in duration-100">
+  <RouterLink :to="to" class="text-sm font-display text-center md:text-left text-gray-500
+  hover:text-accent-dark transition-colors duration-200">
     {{ label }}
-  </a>
+  </RouterLink>
 </template>

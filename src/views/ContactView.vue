@@ -69,35 +69,35 @@ useHead({
 </script>
 
 <template>
-  <div class="relative shadow-md min-h-screen pt-16 md:pt-0">
+  <div class="relative min-h-screen pt-16 md:pt-0">
     <div class="grid grid-cols-1 md:flex gap-8 mx-auto">
 
       <div class="h-[45vh] md:h-screen w-full rounded-b-4xl md:rounded-b-none overflow-hidden shadow-md md:shadow-none" ref="mapContainer"></div>
 
-      <div class="md:absolute flex flex-col h-full left-10 -bottom-36 md:z-40 -mt-6 md:mt-0">
-        <div class="bg-white md:bg-light/40 md:w-[23rem] md:min-h-[76vh] md:rounded-2xl md:shadow-md">
+      <div class="md:absolute flex flex-col h-full left-10 -bottom-36 md:z-40 -mt-6 md:mt-0 md:pointer-events-none">
+        <div class="md:pointer-events-auto bg-white md:bg-white/90 md:backdrop-blur-md md:w-[23rem] md:min-h-[76vh] md:rounded-3xl md:shadow-xl md:shadow-black/10 md:border md:border-gray-200/80">
           
           <div
-            class="hidden md:flex w-full bg-white rounded-2xl py-10 shadow-sm"
+            class="hidden md:flex w-full bg-linear-to-b from-cream to-white rounded-t-3xl py-10 border-b border-accent/20"
             v-if="showLogo"
           >
             <img src="/images/logo.png" alt="Poliklinika Eleos Logo" class="w-[20dvh] max:w-60 h-auto mx-auto">
           </div>
           <div class="space-y-4 p-6">
-            <h2 class="text-2xl font-semibold text-gray-900">Kako do nas?</h2>
+            <h2 class="text-xl font-semibold text-gray-900">Kako do nas?</h2>
           
-            <div class="space-y-4 text-gray-800">
+            <div class="space-y-5 text-gray-700">
               <div>
-                <h3 class="font-medium text-gray-900 text-lg">Adresa</h3>
+                <h3 class="text-xs font-semibold tracking-[0.15em] uppercase text-accent-dark mb-1">Adresa</h3>
                 <p>Branislava Nušića 9</p>
                 <p>Brčko, Bosna i Hercegovina</p>
               </div>
 
               <div>
-                <h3 class="font-medium text-gray-900 text-lg">Kontakt</h3>
-                <p>+387 66 012 021</p>
-                <p>+387 65 906 938</p>
-                <span ref="email"></span>
+                <h3 class="text-xs font-semibold tracking-[0.15em] uppercase text-accent-dark mb-1">Kontakt</h3>
+                <p><a href="tel:+38766012021" class="hover:text-accent-dark transition-colors">+387 66 012 021</a></p>
+                <p><a href="tel:+38765906938" class="hover:text-accent-dark transition-colors">+387 65 906 938</a></p>
+                <span ref="email" class="hover:text-accent-dark transition-colors"></span>
               </div>
               
               <div class="flex space-x-2">
@@ -114,17 +114,20 @@ useHead({
               </div>
 
               <div>
-                <h3 class="font-medium text-gray-900 text-lg pb-1">Radno vrijeme</h3>
-                <div class="flex flex-col space-y-1">
-                  <div>
-                    <p class="text-sm">Ponedjeljak - Petak</p>
-                    <p class="text-lg">8:00 - 20:00</p>
+                <h3 class="text-xs font-semibold tracking-[0.15em] uppercase text-accent-dark mb-2">Radno vrijeme</h3>
+                <div class="flex flex-col space-y-1.5 rounded-2xl bg-cream border border-accent/20 px-4 py-3">
+                  <div class="flex justify-between text-sm">
+                    <p>Ponedjeljak - Petak</p>
+                    <p class="font-semibold text-gray-900">8:00 - 20:00</p>
                   </div>
-                  <div>
-                    <p class="text-sm">Subota</p>
-                    <p class="text-lg">9:00 - 15:00</p>
+                  <div class="flex justify-between text-sm">
+                    <p>Subota</p>
+                    <p class="font-semibold text-gray-900">9:00 - 15:00</p>
                   </div>
-                  <p class="text-lg">Nedjelja neradna</p>
+                  <div class="flex justify-between text-sm">
+                    <p>Nedjelja</p>
+                    <p class="font-semibold text-gray-400">Neradna</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -18,8 +18,10 @@ const isActive = computed(() => route.path === props.to);
 </script>
 
 <template>
-  <a :href="to" class="text-sm md:w-auto lg:w-24 md:text-center font-display font-semibold text-gray-700
-  hover:text-accent/70 md:px-3 py-2 transition ease-in duration-100" :class="{ 'sm:text-accent border-b border-light md:border-0': isActive }">
+  <RouterLink :to="to" class="group relative text-sm font-display font-semibold tracking-wide md:px-3 py-2
+  transition-colors duration-200" :class="isActive ? 'text-accent-dark' : 'text-gray-700 hover:text-accent-dark'">
     {{ label }}
-  </a>
+    <span class="hidden md:block absolute left-3 right-3 -bottom-0.5 h-0.5 rounded-full bg-accent origin-left transition-transform duration-300"
+      :class="isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'"></span>
+  </RouterLink>
 </template>

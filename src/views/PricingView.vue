@@ -1,6 +1,7 @@
 <script setup>
 import { useHead } from '@unhead/vue';
 import PriceBoard from '@/components/PriceBoard.vue';
+import PageHeader from '@/components/common/PageHeader.vue';
 
 useHead({
   title: 'Cjenovnik - Poliklinika Eleos',
@@ -85,20 +86,40 @@ const services = [
     ]
   },
 ];
+
+const leftColumnCategories = ["Ginekološke usluge", "Pedijatrijske usluge"];
+const leftColumn = services.filter((c) => leftColumnCategories.includes(c.categoryName));
+const rightColumn = services.filter((c) => !leftColumnCategories.includes(c.categoryName));
+
+const mobileOrder = [
+  "Ginekološke usluge",
+  "Estetska medicina",
+  "Specijalistički pregledi",
+  "Pedijatrijske usluge",
+  "Terapije i obrade",
+];
+// Tailwind only generates classes it can find as literal strings.
+const orderClasses = ["order-1", "order-2", "order-3", "order-4", "order-5", "order-6", "order-7", "order-8"];
+const mobileOrderClass = (category) => {
+  const index = mobileOrder.indexOf(category.categoryName);
+  return index === -1 ? "order-last" : orderClasses[index];
+};
 </script>
 
 <template>
-  <div class="min-h-screen pt-28 md:pt-40 pb-6">
+  <div class="min-h-screen pt-28 md:pt-40 pb-10">
     <div class="max-w-[1200px] mx-auto px-6">
+      <PageHeader title="Cjenovnik" />
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 space-y-10 lg:space-x-10">
-        <PriceBoard :services="services.slice(0, 1)" />
-        <div class="space-y-10">
-          <PriceBoard :services="services.slice(1)" />
+      <div class="flex flex-col gap-8 lg:grid lg:grid-cols-2 lg:items-start">
+        <div v-for="(column, i) in [leftColumn, rightColumn]" :key="i" class="contents lg:flex lg:flex-col lg:gap-8">
+          <div v-for="category in column" :key="category.categoryName" :class="[mobileOrderClass(category), 'lg:order-none']">
+            <PriceBoard :services="[category]" />
+          </div>
         </div>
       </div>
 
-      <p class="mt-2 text-sm text-gray-600">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 8. jula 2026.</p>
+      <p class="mt-8 text-sm text-gray-500">* Sve cijene u cjenovniku su informativnog karaktera.<br>Podaci ažurirani 8. jula 2026.</p>
     </div>
   </div>
 </template>
